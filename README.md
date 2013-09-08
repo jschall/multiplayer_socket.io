@@ -2,7 +2,7 @@
 =====================
 This is a Node.js / Socket.IO multiplayer game server experiment. In its current state, when a client connects to the server, the user is asked to select a number from 0 to 3 (four numbers, each representing one of the four character classes in the Super Gauntlet game).
 
-Once the character class id is selected, a client side Player object is instantiated and news of this event is sent to the server. The server instantiates a client side Player object with the same properties as contained within the transmitted client Player object and stored in a players[] array.
+Once the character class id is selected, a client side Player object is instantiated and news of this event is sent to the server. The server instantiates a server side Player object with the same properties as contained within the transmitted client Player object and stored in a players[] array.
 
 The server then broadcasts the news of the newly-connected player to all other connected clients(if any).
 The client side code then draws the localPlayer via HTML5 Canvas. The user can then move the drawn square (representing the player) in the browser by pressing the arrow keys.
