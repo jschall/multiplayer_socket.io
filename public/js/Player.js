@@ -65,7 +65,7 @@ var Player = function(startX, startY, playerClass) {
 
 	// Draw player
 	var draw = function(context) {
-		context.fillRect(x-5, y-5, 30, 30);
+
 
 		// Cheesy way to test client/server retention of multiplayer
 		// object attributes. Remove once proof of concept is established.
@@ -91,6 +91,7 @@ var Player = function(startX, startY, playerClass) {
 			default: 
 					console.log("The pClass property passed to the Player.draw() function is greater than 3. Fix it.");
 		}
+		context.fillRect(x-5, y-5, 30, 30);
 	};
 
 	// Define which variables and methods can be accessed
