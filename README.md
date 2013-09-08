@@ -12,9 +12,9 @@ Every time a new client (new browser window) connects to the server, this proces
 I've been attempting to assign and transmit character class information throughout this process, but all attempts have met failure. The movement and location of each local player stays constant, but with each addition of a new player, the colors switch when they should remain constant. I cannot find the error in the code that is causing this...
 
 ##Likely Functions Causing this Behavior
-In server.js: ( onNewPlayer(data) )
-In super_gauntlet.js ( onNewPlayer(data) )
-In public/Player.js ( draw(context) )
+* In server.js: ( onNewPlayer(data) )
+* In super_gauntlet.js ( onNewPlayer(data) )
+* In public/Player.js ( draw(context) )
 
 
 ##Requirements to Experiment with this Code
