@@ -1,0 +1,17 @@
+// File Name: super_gauntlet.css
+// Author: Randy Ledbetter
+
+/*
+===============================================================================
+Description:  CSS styles for Super Gauntlet Game
+===============================================================================
+*/
+
+
+body {
+	overflow: hidden;
+}
+
+canvas {
+	display: block;
+}
