@@ -21,7 +21,7 @@ I've been attempting to assign and transmit character class information througho
 1. Download repository folder. In console, switch to the directory
 2. Install Node.js http://nodejs.org 
 3. Install Node Package Manager
-4. Install Socket.IO
+4. Install Socket.IO (type: npm install socket.io)
 5. Type:       node server.js
 6. Open public/index.html in a browser. Select a number from 0 to 3 (representing a character class). Move the character with the arrow keys.
 7. Open a seperate browser window and repeat the process with a different number to instantiate a different character class. Move the character around in the second window. Switch back and forth, and you will see the players' movements are in sync, but the colors are not correct. This needs to be fixed.
